@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset=" UTF-8">
+    <Meta name="Viewport" content="witdh=device-width, initial-scale=1.0"></Meta>
+    <title> bacaan lanjutan </title>
+
+    <!-- pengenalan css-->
+    <h1>pengenalan css</h1>
+    <p>CSS adalah singkatan dari Cascading Style Sheets , yang digunakan untuk menata dan mengatur tampilan elemen-elemen HTML pada halaman web. CSS memungkinkan Anda untuk memisahkan konten dan tampilan, sehingga Anda bisa mengubah desain halaman tanpa mengubah struktur HTML itu sendiri.
+    
+    <p>Apa itu CSS?</p>
+    CSS menjelaskan bagaimana elemen-elemen HTML ditampilkan di layar, kertas, atau media lainnya. Dengan CSS, Anda bisa mengontrol layout dan tampilan halaman web secara keseluruhan.
+    CSS menghemat banyak pekerjaan karena dapat mengontrol desain untuk banyak halaman web sekaligus .karena dapat mengontrol desain untuk banyak halaman web sekaligus.
+    Stylesheet eksternal disimpan dalam file .cssterpisah, yang membuat pengelolaan dan perubahan desain lebih mudah.
+    
+    <p>Mengapa Menggunakan CSS?</p>
+    CSS digunakan untuk:
+    1. Menentukan gaya halaman web seperti desain, tata letak, dan variasi tampilan untuk berbagai perangkat dan ukuran layar.
+    2. Memisahkan desain dari konten HTML, membuat pengelolaan lebih efisien dan mudah.
+    
+    <p>Contoh CSS:</p>
+    <img src="cuplikan layar 2025-04-07 195809.png" alt="percobaan pengenalan css">
+
+    <p> CSS Memecahkan Masalah Besar </p>
+    HTML pada dasarnya dirancang untuk mendeskripsikan konten, bukan untuk memformat tampilan halaman. Sebelumnya, untuk memformat halaman web, pengembang web harus menambahkan tag seperti <font>dan atribut warna ke dalam HTML. Ini sangat merepotkan, terutama untuk situs web besar, karena setiap halaman memerlukan perubahan manual.
+    Untuk mengatasi masalah ini, W3C (World Wide Web Consortium) menciptakan CSS yang memisahkagaya format dari struktur konten HTML.
+    
+
+    <!-- sintaksis CSS -->
+    <H1>Sintaksis CSS </H1>
+    <img src="Cuplikan layar 2025-04-07 204402.png" alt="percobaan pengenalan css">
+
+    <p>Pemilih CSS menunjuk ke elemen HTML yang ingin diberi gaya. Blok deklarasi berisi satu atau lebih deklarasi yang dipisahkan titik koma, dengan setiap deklarasi terdiri dari properti dan nilai yang dipisahkan titik dua. Blok deklarasi diapit oleh kurung kurawal.</p>
+    <p>Contoh:</p>
+    <img src="Cuplikan layar 2025-04-07 200436.png" alt="percobaan pengenalan css">
+
+    <p> penjelasan </p>
+    <p>Pemilih : p (elemen <p>).</p>
+    <p>Properti : colordan text-align.</p>
+    <p>Nilai : reddan center.</p>
+    <p>Dengan kode ini, semua elemen <p>akan memiliki teks berwarna merah dan rata tengah.</p>
+
+
+    <!--pemilihan id css-->
+    <p>Pemilih id menggunakan atribut id dari elemen HTML untuk memilih elemen tertentu.</p>
+    <p>Id suatu elemen bersifat unik dalam suatu halaman, jadi pemilih id digunakan untuk memilih satu elemen unik!</p>
+    <p>Untuk memilih elemen dengan id tertentu, tulis karakter hash (#), diikuti dengan id elemen.</p>
+    Contoh:
+    <img src="Cuplikan layar 2025-04-07 205120.png" alt="percobaan pemilihan id css">
+    
+    contoh
+    Dalam contoh ini, hanya elemen <p> dengan class="center" yang akan berwarna merah dan rata tengah:
+    <img src="Cuplikan layar 2025-04-07 205945.png" alt="percobaan pemilihan id css">
+    
+    <p>Pemilih Universal CSS</p>
+    Pemilih universal (*) memilih semua elemen HTML pada halaman.
+    Contoh
+    Aturan CSS di bawah ini akan memengaruhi setiap elemen HTML di halaman: 
+    <img src="Cuplikan layar 2025-04-07 210304.png" alt="percobaan pemilihan id css">
+    
+
+    <p>Pemilih Pengelompokan CSS</p>
+    Pemilih pengelompokan memilih semua elemen HTML dengan definisi gaya yang sama.
+    contoh
+    <img src="Cuplikan layar 2025-04-07 211253.png" alt="percobaan pemilihan id css">
+    
+
+    <!-- cara memasukan css -->
+    <p>Tiga Cara Memasukkan CSS</p>
+    Ada tiga cara memasukkan lembar gaya:
+       1. CSS Eksternal
+       2. CSS internal
+       3. CSS sebaris
+        CSS Eksternal
+        <p>Dengan lembar gaya eksternal, Anda dapat mengubah tampilan seluruh situs web hanya dengan mengubah satu file!
+        Setiap halaman HTML harus menyertakan referensi ke berkas lembar gaya eksternal di dalam elemen <link>, di dalam bagian kepala</p>
+    
+    contoh
+    Gaya eksternal didefinisikan dalam elemen <link>, di dalam bagian <head> halaman HTML
+        <img src="Cuplikan layar 2025-04-07 211806.png" alt="link didalam bagian head">
+    
+        <h1> css internal dan sebaris</h1>
+        <p> 1. CSS DalamDefinisi internaldidefinisikan dalam elemen <style>di bagian <head>halaman HTML, berguna untuk memberikan gaya unik pada satu halaman.</p>
+        <p> 2. CSS Sebaris diterapkanditerapkan langsung pada elemen HTML menggunakan atribut styleuntuk gaya tunggal. Ini lebih cepat, namun mencampur konten dengan presentasi.</p>  
+        <p> 3. Jika ada beberapa gaya untuk elemen yang sama, gaya terakhir yangyang dibaca akan diterapkan, baik itu dari gaya internal atau eksternal.</p>
+        <p> 4. Prioritas Gayaterakhir : Gaya sebaris memiliki prioritas tertinggi, diikuti oleh gaya internal dan eksternal, dan terakhir browser bawaan.</p>
+
+        <!-- komentar css -->
+        <p>Komentar CSS digunakan untuk menjelaskan kode dandan diakhiri dengan .digunakan untuk menjelaskan kode dan diabaikan oleh browser. Komentar dimulai dengan /*dan diakhiri dengan */. </p>
+        Contoh Komentar Satu Baris :
+        /* This is a single-line comment */p { color: red; }
+        Komentar:
+        p { color: /*red*/ blue; }
+        
+        Komentar Multi Baris :
+        /* This is
+        a multi-linecomment */
+        p { color: red; }Menggunakan: HTML menggunakan<!-- -->untuk berkomentar, sementara CSS menggunakan `//* */. 
+
+        <!-- warna css -->
+        Nama Warna CSS : Anda dapat menggunakan nama warna yang telah ditetapkan, seperti Tomat , Oranye , DodgerBlue , MediumSeaGreen , dll. CSS mendukung 140 nama warna standar.
+        
+        <p> Warna Latar Belakang : Untuk mengatur warna latar belakang elemen: </p>
+        <h1 style="background-color:DodgerBlue;">Hello World</h1>
+        <p style="background-color:Tomato;">Lorem ipsum. </p>
+        
+        <p>Warna Teks : Untuk mengatur warna teks:</p>
+        <h1 style="color:Tomato;">Hello World</h1>
+       
+       <p> Warna Batasbatas : Untuk mengatur warna batas elemen: </p>
+       <h1 style="border:2px solid Tomato;">Hello World</h1>
+
+       <p> Nilai Warna CSS : Warna juga bisa ditentukan dengan nilai RGB, HEX, HSL, RGBA, atau HSLA:</p>
+       1. Warna RGB:rgb(255, 99, 71)
+       2. HEKSA:#ff6347
+       3. bahasa inggris HSL:hsl(9, 100%, 64%)
+       4. RGBA (transparan):rgba(255, 99, 71, 0.5)
+       5. HSLA (transparan):hsla(9, 100%, 64%, 0.5)
+       Dengan menggunakan berbagai cara ini, Anda dapat mengatur warna untuk latar belakang, teks, dan batas elemen HTML.
+
+       <! --
